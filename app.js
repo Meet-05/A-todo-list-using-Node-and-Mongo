@@ -77,7 +77,7 @@ app.post("/", function(req, res) {
 
   if(listName===date.getDate())
   {
-    newitem.save;
+    newitem.save();
     res.redirect("/");
   }
   else{
